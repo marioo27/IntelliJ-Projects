@@ -1,0 +1,59 @@
+/* Estilo para el fondo de la ventana principal */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #81C784); /* Fondo degradado verde */
+}
+
+/* Estilo de las etiquetas */
+.label {
+    -fx-font-family: "Roboto", sans-serif; /* Fuente moderna */
+    -fx-font-size: 16px; /* Tamano de la fuente */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-alignment: center; /* Texto centrado */
+    -fx-padding: 10; /* Espaciado interno */
+    -fx-background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente */
+    -fx-border-radius: 8px; /* Bordes redondeados */
+    -fx-background-radius: 8px;
+}
+
+/* Estilo de las imagenes */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 5); /* Sombra en las imagenes */
+    -fx-padding: 10; /* Espaciado alrededor */
+    -fx-border-radius: 8px; /* Bordes redondeados */
+    -fx-background-radius: 8px;
+}
+
+/* Estilo de los botones */
+.button {
+    -fx-background-color: #FFC107; /* Fondo amarillo */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Roboto", sans-serif; /* Fuente moderna */
+    -fx-font-size: 14px; /* Tamano de la fuente */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-border-radius: 8px; /* Bordes redondeados */
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px; /* Espaciado interno */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.5, 0, 5); /* Sombra suave */
+    -fx-transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Estilo específico para el botón "Ver sesiones" */
+#btnSesiones {
+    -fx-background-color: #E65100; /* Naranja oscuro */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-size: 14px; /* Tamaño de fuente no cambia */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-padding: 8px 16px; /* Espaciado interno ajustado */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 8, 0.5, 0, 5); /* Sombra más fuerte */
+    -fx-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transición de fondo y tamaño */
+}
+
+#btnSesiones:hover {
+    -fx-background-color: #D84315; /* Naranja más oscuro al pasar el mouse */
+    -fx-transform: scale(1.05); /* Aumenta el tamaño ligeramente al pasar el mouse */
+}
+
+#btnSesiones:pressed {
+    -fx-background-color: #BF360C; /* Naranja aún más oscuro al presionar */
+}

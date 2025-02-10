@@ -1,0 +1,91 @@
+/* Estilo para el fondo de la ventana de retrato */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #90CAF9, #E3F2FD); /* Fondo degradado azul claro */
+}
+
+
+
+/* Estilo de los botones generales */
+.button {
+    -fx-background-color: #42A5F5; /* Fondo azul medio */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Roboto", sans-serif; /* Fuente moderna */
+    -fx-font-size: 14px; /* Tamano de la fuente */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-border-radius: 8px; /* Bordes redondeados */
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px; /* Espaciado interno */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.5, 0, 5); /* Sombra suave */
+    -fx-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transiciones suaves */
+}
+
+#reservarRetrato {
+    -fx-background-color: #1E88E5; /* Azul intenso */
+}
+
+#reservarRetrato:hover {
+    -fx-background-color: #1565C0; /* Azul más oscuro al pasar el mouse */
+    -fx-transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#reservarRetrato:pressed {
+    -fx-background-color: #0D47A1; /* Azul aún más oscuro al presionar */
+}
+
+#cancelarRetrato {
+    -fx-background-color: #E53935; /* Rojo */
+}
+
+#cancelarRetrato:hover {
+    -fx-background-color: #D32F2F; /* Rojo oscuro al pasar el mouse */
+    -fx-transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#cancelarRetrato:pressed {
+    -fx-background-color: #B71C1C; /* Rojo aún más oscuro al presionar */
+}
+
+/* Estilo de los SplitMenuButton */
+.split-menu-button {
+    -fx-background-color: #64B5F6; /* Fondo azul claro */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.5, 0, 5); /* Sombra ligera */
+}
+
+.split-menu-button:hover {
+    -fx-background-color: #42A5F5; /* Azul medio al pasar el mouse */
+}
+
+/* Estilo del TextField */
+.text-field {
+    -fx-font-family: "Roboto", sans-serif; /* Fuente moderna */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-background-color: white; /* Fondo blanco */
+    -fx-border-color: #1E88E5; /* Borde azul intenso */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 3); /* Sombra ligera */
+}
+
+/* Estilo de los labels */
+.label {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1565C0; /* Azul oscuro para texto */
+    -fx-alignment: center;
+}
+
+/* Estilo del texto explicativo */
+.text {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 12px;
+    -fx-text-fill: #0D47A1; /* Azul intenso */
+    -fx-wrap-text: true; /* Permite el ajuste automático del texto */
+}

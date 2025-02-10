@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="280.0" stylesheets="@uiAcceso.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.di.appsesionesfotos.FotoController">
+
+   <Button fx:id="btnAcceder" layoutX="55.0" layoutY="125.0" mnemonicParsing="false" onAction="#acceso" prefHeight="45.0" prefWidth="170.0" text="Acceder" />
+
+   <Text layoutX="46.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="KOBAPHOTO" textAlignment="CENTER" wrappingWidth="187.13671875" />
+
+</Pane>

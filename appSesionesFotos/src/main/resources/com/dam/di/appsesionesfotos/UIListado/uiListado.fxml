@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0"
+      prefWidth="429.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.dam.di.appsesionesfotos.FotoController">
+    <TableView fx:id="tablaSesiones" layoutX="40.0" layoutY="83.0" prefHeight="200.0" prefWidth="336.0">
+        <columns>
+            <TableColumn fx:id="colTipo" minWidth="80.0" text="Tipo">
+                <cellValueFactory>
+                    <PropertyValueFactory property="tipo"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colNumPersonas" minWidth="80.0" text="Nº Personas">
+                <cellValueFactory>
+                    <PropertyValueFactory property="numPersonas"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colOtro" minWidth="80.0" text="Otro">
+                <cellValueFactory>
+                    <PropertyValueFactory property="otro"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colPrecio" prefWidth="75.0" text="Precio">
+                <cellValueFactory>
+                    <PropertyValueFactory property="precio"/>
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+    <SplitMenuButton fx:id="cbVistaTabla" layoutX="75.0" layoutY="2.0" mnemonicParsing="false" text="Vista"
+                     textAlignment="CENTER">
+        <items>
+            <MenuItem fx:id="opRetratos" mnemonicParsing="false" onAction="#opRetratos" text="Retratos"/>
+            <MenuItem fx:id="opAnimales" mnemonicParsing="false" onAction="#opAnimales" text="Animales"/>
+            <MenuItem fx:id="opEventos" mnemonicParsing="false" onAction="#opEventos" text="Eventos"/>
+            <MenuItem fx:id="opCoches" mnemonicParsing="false" onAction="#opCoches" text="Coches"/>
+            <MenuItem fx:id="opTodo" mnemonicParsing="false" onAction="#opTodo" text="Todo"/>
+        </items>
+    </SplitMenuButton>
+    <ComboBox layoutX="173.0" layoutY="27.0" prefWidth="150.0"/>
+</Pane>

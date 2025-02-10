@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="280.0" stylesheets="@uiLogin.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.di.appsesionesfotos.FotoController">
+    <PasswordField fx:id="tfPassw" layoutX="93.0" layoutY="81.0" styleClass="password-field" />
+    <TextField fx:id="tfUser" layoutX="93.0" layoutY="34.0" styleClass="text-field" />
+    <Text layoutX="14.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Usuario" />
+    <Text layoutX="14.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Contraseña" />
+    <Button fx:id="btnLogin" layoutX="181.0" layoutY="173.0" mnemonicParsing="false" onAction="#login" text="Login" />
+    <Button fx:id="btnAlta" layoutX="23.0" layoutY="173.0" mnemonicParsing="false" onAction="#abrirVentanaAlta" text="Nuevo Usuario" />
+</Pane>
