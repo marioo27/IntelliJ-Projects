@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="350.0" minWidth="575.0" prefHeight="300.0" prefWidth="400.0"
+          xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.dam.di.registrologinusuariosmgr.HelloController" alignment="CENTER" stylesheets="@uiAlta.css">
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="ALWAYS" />
+    </rowConstraints>
+    <children>
+        <VBox alignment="CENTER" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <!-- Imagen -->
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../imgs/Alta.png" />
+                </image>
+            </ImageView>
+
+            <!-- Campo de Usuario -->
+            <Label text="Usuario" />
+            <TextField fx:id="txtUsuarioAlta" promptText="Introduce tu usuario" />
+
+            <!-- Campo de Contraseña -->
+            <Label text="Contraseña" />
+            <PasswordField fx:id="txtPasswordAlta" promptText="Introduce tu contraseña" />
+            <TextField fx:id="txtVisiblePasswordAlta" promptText="Introduce tu contraseña" visible="false" managed="false" />
+
+            <!-- Checkbox para ver la contraseña -->
+            <CheckBox fx:id="chkVerContraAlta" onAction="#verContraseniaAlta" text="Ver contraseña" />
+
+            <!-- Campo Confirmar Contraseña -->
+            <Label text="Confirmar Contraseña" />
+            <PasswordField fx:id="txtConfirmarPasswordAlta" promptText="Confirma tu contraseña" />
+            <TextField fx:id="txtVisibleConfirmarPasswordAlta" promptText="Confirma tu contraseña" visible="false" managed="false" />
+
+            <!-- Checkbox para ver la contraseña confirmada -->
+            <CheckBox fx:id="chkVerContraAlta2" onAction="#verContraseniaConfirmarAlta" text="Ver contraseña" />
+
+            <!-- Botón Confirmar -->
+            <Button fx:id="btnConfirmar" mnemonicParsing="false" onAction="#confirmarAlta" prefHeight="40.0" prefWidth="320.0" text="Confirmar" />
+
+            <!-- Botón Volver -->
+            <Button fx:id="btnVolver" mnemonicParsing="false" onAction="#volver" prefHeight="40.0" prefWidth="320.0" text="Volver" />
+        </VBox>
+    </children>
+</GridPane>

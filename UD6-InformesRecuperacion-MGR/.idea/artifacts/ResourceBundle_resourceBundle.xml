@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ResourceBundle resourceBundle">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResourceBundle_resourceBundle</output-path>
+    <root id="archive" name="ResourceBundle resourceBundle.jar">
+      <element id="directory" name="Informes" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+    </root>
+  </artifact>
+</component>

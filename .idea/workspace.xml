@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cbe388c-78cb-4f51-bcee-ec6f07a25cb4" name="Changes" comment="" />
+    <list default="true" id="9cbe388c-78cb-4f51-bcee-ec6f07a25cb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ReservasHotel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel.zip" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/out/artifacts/EjectuableReservas/EjectuableReservas.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/out/artifacts/EjectuableReservas/EjectuableReservas.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/src/main/java/com/dam/di/reservashotel/Reporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservasHotel/src/main/resources/com/dam/di/reservashotel/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ReservasHotel/src/main/resources/com/dam/di/reservashotel/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2peiKDDdzjDXTriq4P8BMPq0eJ4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,6 +30,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alumno/IdeaProjects"
   }

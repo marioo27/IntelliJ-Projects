@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.dam.di.ud6informesrecuperacionmgr.HelloController">
+   <children>
+      <Button fx:id="btnVisualizarInforme" layoutX="14.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="128.0" text="Visualizar Informe" />
+      <Button fx:id="btnGuardarInforme" layoutX="178.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="128.0" text="Guardar Informe" />
+   </children>
+</Pane>

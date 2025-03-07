@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0232abf5-8a4e-4eb2-ab9c-a076a38dbe72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReservasHotel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/out/artifacts/EjectuableReservas/EjectuableReservas.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/out/artifacts/EjectuableReservas/EjectuableReservas.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/src/main/java/com/dam/di/reservashotel/Reporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReservasHotel/src/main/resources/com/dam/di/reservashotel/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReservasHotel/src/main/resources/com/dam/di/reservashotel/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2t22ajQjN3reVFW4dRCMPdBxieH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0232abf5-8a4e-4eb2-ab9c-a076a38dbe72" name="Changes" comment="" />
+      <created>1739535914879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739535914879</updated>
+    </task>
+    <servers />
+  </component>
+</project>

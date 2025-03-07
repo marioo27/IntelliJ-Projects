@@ -1,0 +1,30 @@
+/* Estilo general */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #3B82F6, #93C5FD);
+}
+
+/* Estilo de los botones */
+.button {
+    -fx-background-color: #60A5FA;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+    -fx-border-color: #3B82F6;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #3B82F6;
+}
+
+.button:pressed {
+    -fx-background-color: #2563EB;
+}
+
+/* Imagen centrada con sombra */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.2, 0, 3);
+}

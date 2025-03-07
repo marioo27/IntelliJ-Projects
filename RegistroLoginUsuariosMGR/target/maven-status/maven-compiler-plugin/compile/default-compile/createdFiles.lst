@@ -1,0 +1,5 @@
+com\dam\di\registrologinusuariosmgr\UsersPasswordsData.class
+com\dam\di\registrologinusuariosmgr\HelloController.class
+com\dam\di\registrologinusuariosmgr\HelloApplication.class
+module-info.class
+com\dam\di\registrologinusuariosmgr\Launcher.class
